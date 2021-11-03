@@ -14,5 +14,6 @@ app.listen(PORT, ()=>console.log(`listening from ${PORT}`));
 app.get('/weather', handleWeather);
 
 function handleWeather(req, res) {
+    req.query;
     res.status(200).send(weatherData);
 }
