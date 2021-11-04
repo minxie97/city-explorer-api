@@ -13,10 +13,12 @@ Created using Javascript, express, cors, and deployed on Heroku
 ## Change Log
 
 2021-11-2 11:52pm: working draft of server complete. more to be done regarding error handling.
+2021-11-3 10:37pm: full working server that gets weather and movie data. 
 
 ## Credit and Collaborations
 Collaborated with Jordan Flemming to whiteboard the WRRC with app and server.
 
+## Time Estimates
 Name of feature: Build server that takes requests and responds with weather data or error.
 
 Estimate of time needed to complete: 4+ hours
@@ -26,3 +28,13 @@ Start time: 6:00pm
 Finish time: 11:52pm
 
 Actual time needed to complete: Not fully complete. Error handling needs work.
+
+Name of feature: Connect server to real APIs.
+
+Estimate of time needed to complete: <2 hours
+
+Start time: 6:00pm
+
+Finish time: 10:30pm
+
+Actual time needed to complete: About 1.5 hours to finish lab. took many long breaks.
