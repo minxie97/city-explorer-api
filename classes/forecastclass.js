@@ -1,9 +1,12 @@
 'use strict';
 
 class Forecast {
-    constructor(date, description) {
-        this.date = date;
-        this.description = description;
+    constructor(obj) {
+        this.date = obj.datetime;
+        this.description = obj.weather.description;
+        this.icon = obj.weather.icon;
+        this.high = obj.max_temp;
+        this.low = obj.low_temp;
     }
 }
 
