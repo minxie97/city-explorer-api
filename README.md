@@ -38,3 +38,14 @@ Start time: 6:00pm
 Finish time: 10:30pm
 
 Actual time needed to complete: About 1.5 hours to finish lab. took many long breaks.
+
+Name of feature: Refactor and clean code
+
+Estimate of time needed to complete: 1 hour
+
+Start time: 5:00pm
+
+Finish time: 5:45pm
+
+Actual time needed to complete: 45 minutes
+
