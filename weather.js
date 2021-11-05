@@ -4,10 +4,10 @@ const Forecast = require('./classes/forecastclass');
 
 async function handleWeather(req, res) {
 
-    const url = `http://api.weatherbit.io/v2.0/forecast/daily?lat=${req.query.lat}&lon=${req.query.lon}&key=${process.env.WEATHER_API_KEY}&days=7`
+    const url = `http://api.weatherbit.io/v2.0/forecast/daily?lat=${req.query.lat}&lon=${req.query.lon}&key=${process.env.WEATHER_API_KEY}&units=I&days=7`
     try {
         let weatherResults = await axios.get(url);
-        let clientWeather = weatherResults.data.data.map(weather => new Forecast(weather.datetime, weather.weather.description));
+        let clientWeather = weatherResults.data.data.map(weather => new Forecast(weather));
         if (clientWeather) {
             res.status(200).send(clientWeather);
         } else {
